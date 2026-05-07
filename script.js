@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
     startBtn.addEventListener('click', () => {
         startScreen.style.display = 'none';
         // Inject iframe now that we have user interaction
-        musicContainer.innerHTML = '<iframe width="0" height="0" src="https://www.youtube.com/embed/SMs0GnYze34?autoplay=1&loop=1&playlist=SMs0GnYze34" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>';
+        musicContainer.innerHTML = '<iframe width="0" height="0" src="https://youtu.be/nLnp0tpZ0ok?si=pw43Bv55Idnm1GT_" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>';
     });
 
     // Petal Generator
